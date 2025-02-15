@@ -8,7 +8,7 @@ pipeline {
         }
         stage('cloning') {
             steps {
-                git 'https://github.com/Shin-chin-Lili/jenkinsfile_test.git'
+                git branch: 'main', url: 'https://github.com/Shin-chin-Lili/jenkinsfile_test.git'
             }
         }
     }
